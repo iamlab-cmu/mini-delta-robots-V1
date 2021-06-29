@@ -1,4 +1,4 @@
-# delta_robots
+# mini-delta-robots-V1
 
 ## Running Instructions
 1. Start a roscore
@@ -16,7 +16,7 @@ rosrun joy joy_node
 `
 5. Start the rosserial arduino node.
 `
-rosrun rosserial_arduino serial_node.py /dev/ttyACM1
+rosrun rosserial_arduino serial_node.py /dev/ttyACM0
 `
 6. Start the teleop ROS node.
 `
